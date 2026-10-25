@@ -4,22 +4,18 @@ Pearson BTEC Level 3 IT: Unit 4 - Programming.
 
 ## Solution overview
 
-This repository now contains a minimal C# solution that demonstrates:
-
-- Object-oriented design with abstraction (`ProgrammingTask`), encapsulation (validated immutable properties), and polymorphism (`CalculateComplexityScore` overrides).
-- Defensive coding through input validation and sanitisation (null/empty checks, range checks, control-character removal, trimmed input).
-- Automated unit tests that validate both expected behaviour and defensive edge cases.
+This repository contains a single, standard C# Console Application project (`Unit4Programming.csproj`) with a `Program.cs` entry point in the `Unit4Programming` namespace.
 
 ## Project structure
 
-- `src/Unit4Programming.Core` – core solution classes.
-- `tests/Unit4Programming.Core.Tests` – xUnit tests.
-- `Unit4Programming.slnx` – solution file.
+- `Program.cs` – console application entry point.
+- `Unit4Programming.csproj` – console project file.
+- `Unit4Programming.slnx` – solution file containing the single project.
 
-## Build and test
+## Build and run
 
 ```bash
-dotnet test /home/runner/work/Pearson-BTEC-Level-3-Unit-4-Programming/Pearson-BTEC-Level-3-Unit-4-Programming/Unit4Programming.slnx
+dotnet run --project /home/runner/work/Pearson-BTEC-Level-3-Unit-4-Programming/Pearson-BTEC-Level-3-Unit-4-Programming/Unit4Programming.csproj
 ```
 
 ## Learning aims
