@@ -1,51 +1,37 @@
-# Pearson BTEC Level 3 Unit 4 Programming
+# Pearson BTEC International Level 3 IT: Unit 4 Programming Practice Repository
 
-Pearson BTEC Level 3 IT: Unit 4 - Programming.
+## Project Overview
+Welcome to my student practice repository for **Unit 4: Programming**. This project contains a bespoke C# Console Application (`Unit4Programming.csproj`) engineered to develop and demonstrate applied computational thinking, software design, and problem-solving skills. 
 
-## Solution overview
+This repository serves as a practical sandbox to prepare for assignments within the Pearson BTEC International Level 3 in IT programme.
 
-This repository contains a single, standard C# Console Application project (`Unit4Programming.csproj`) with a `Program.cs` entry point in the `Unit4Programming` namespace.
+## BTEC Unit 4 Learning Aims
+This project is structured to sequentially address and document the core learning aims of Unit 4:
+* **Learning Aim A:** Examine the computational thinking skills and principles of computer programming.
+* **Learning Aim B:** Design a software solution to meet client requirements.
+* **Learning Aim C:** Develop a software solution to meet client requirements.
 
-## Project structure
+## Distinction Criteria Focus (D/D*)
+To ensure this practice aligns with the highest academic standards, the development and documentation processes are specifically tailored to target the Distinction assessment criteria:
 
-- `Program.cs` – console application entry point.
-- `Unit4Programming.csproj` – console project file.
-- `Unit4Programming.slnx` – solution file containing the single project.
+* **A.D1:** The project evaluates how computational thinking skills can impact software design and the quality of the software applications produced.
+* **Synthesis of Knowledge (B & C):** The project draws on and shows synthesis of knowledge across the learning aims to produce a detailed evaluation of the planning, development and refinement of the solutions in line with client requirements.
+* **Systematic Testing:** The project features a comprehensive and appropriate range of self-planned and created tests systematically and meticulously against a software product, showing appropriate detail and accuracy.
+* **BC.D3:** The repository and version control workflow demonstrate individual responsibility, creativity and effective self-management in the design, development and review of the computer program.
 
-## Build and run
+## Industry Practices & Code Quality
+* **Complexity & Constructs:** The code base used in this investigation is of sufficient complexity to allow analysis of the implementation of a range of programming constructs, including standard and language-specific techniques, logical structures and mathematical principles.
+* **Maintainability & Robustness:** Adhering to strict industry standards, including consistent British English naming conventions, logical directory organisation, and comprehensive code commenting to ensure maintainability. 
+* **Agile Refinement:** Iteratively refining the codebase to adapt to changing client requirements and systematically fixing issues found during testing.
+
+## Repository Structure
+* `Program.cs` – The main application entry point where core programming constructs, algorithms, and logic are written and tested.
+* `Unit4Programming.csproj` – The C# console project configuration file mapping necessary library dependencies.
+* `Unit4Programming.slnx` – The overarching solution file managing the project environment.
+* `docs/` – Directory reserved for design documentation, test plans, and evaluations of software quality.
+
+## Build and Run Instructions
+To compile and execute the practice application locally in your terminal, please use the following command:
 
 ```bash
-dotnet run --project /home/runner/work/Pearson-BTEC-Level-3-Unit-4-Programming/Pearson-BTEC-Level-3-Unit-4-Programming/Unit4Programming.csproj
-```
-
-## Learning aims
-
-This project demonstrates a complete small-scale C# software solution that meets identified client requirements.
-
-### Development environment
-
-- C# is used as the primary language with an object-oriented programming approach.
-- Development is carried out in GitHub Codespaces with integrated code development tools.
-- The environment supports code and syntax highlighting.
-- Code completion, compiler/interpreter support, and debugging are used to improve code quality.
-- Git-based repository integration is used for version control and commits.
-
-### Methodologies and standards
-
-- The project follows professional software engineering stages: investigating, designing, developing, testing, and reviewing.
-- Object-oriented principles are applied through classes, objects, and instances.
-- Core OOP concepts are used where appropriate: inheritance, encapsulation, abstraction, and polymorphism.
-
-### Defensive coding and quality
-
-- Good coding practices are applied to keep the solution functional and efficient.
-- Defensive coding includes input validation and sanitisation.
-- Robustness is supported with data hiding, obfuscation, fallback states, and error messaging.
-- Naming conventions, logical code organisation, and informative commenting support maintainability.
-
-### Testing and evaluation
-
-- Development and testing follow an iterative approach to improve robustness.
-- Functional and non-functional requirements are evaluated with appropriate testing methods.
-- Feedback is collected through user acceptance testing and bug reporting.
-- Code and unit test cases are reworked and documented to resolve identified defects.
+dotnet run
