@@ -15,10 +15,12 @@ public static class Program
          */
 
         int integerNumbers = 10;
-        decimal myDoubleNumber = 99.99;
+        decimal myDecimalNumber = 99.99m;
         char singleChar = 'A';
         const string name = "Taimour Sohail"; // const make the value immutable
         bool boolVal = true;
+
+        Console.WriteLine($"{integerNumbers}, {myDecimalNumber}, {singleChar}, {name}, {boolVal}");
 
         Console.ReadLine();
     }
