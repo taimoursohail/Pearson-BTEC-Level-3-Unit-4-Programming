@@ -14,23 +14,20 @@ public static class Program
             5) bool
          */
 
-        int integerNumbers = 10;
-        decimal myDecimalNumber = 99.99m;
-        double myDoubleNumber = 99.99999999999999999999D;
-        char singleChar = 'A';
-        const string name = "Mr. Taimour Sohail"; // const make the value immutable
-        bool boolVal = true;
-
-        string name2 = "Taimour Sohail";
-        string address = "Bahria Town Karachi";
-        int age = 23;
-        double doubleval = 999.99;
-        char gender = 'M';
-        bool student = true;
+        string Name = "Taimour Sohail";
+        string Address = "Bahria Town Karachi";
+        string SchoolName = "Al-Nafi International College";
+        int Age = 23;
+        double latitude = 25.061284358312367;
+        double longitude = 67.32018807120261;
+        double[] coordinates = { latitude, longitude };
+        char Gender = 'M';
+        bool Student = true;
 
 
-        Console.WriteLine($"{integerNumbers}, {myDecimalNumber}, {myDoubleNumber}, {singleChar}, {name}, {boolVal}");
-        Console.WriteLine("Name: " + name2 + ", Address: " + address + ", Age: " + age + ", Bank Balance: " + doubleval + ", Single Char: " + gender + ", Student: " + student);
+        Console.WriteLine("Name: " + Name + ", Address: " + Address + ", Age: " + Age + ", Location: " + latitude+","+longitude  + ", Single Char: " + Gender + ", Student: " + Student);
+        Console.WriteLine();
+        Console.WriteLine($"My is {Name}. I live in {Address} and I am {Age} Y/O, also I am student of {SchoolName} which is {Student}. \n My GPS coordinates: {coordinates[0]}, {coordinates[1]}");
 
         Console.ReadLine();
     }
