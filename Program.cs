@@ -25,9 +25,56 @@ public static class Program
         bool Student = true;
 
 
-        Console.WriteLine("Name: " + Name + ", Address: " + Address + ", Age: " + Age + ", Location: " + latitude+","+longitude  + ", Single Char: " + Gender + ", Student: " + Student);
+        Console.WriteLine("Name: " + Name + ", Address: " + Address + ", Age: " + Age + ", Location: " + latitude + "," + longitude + ", Single Char: " + Gender + ", Student: " + Student);
         Console.WriteLine();
         Console.WriteLine($"My is {Name}. I live in {Address} and I am {Age} Y/O, also I am student of {SchoolName} which is {Student}. \n My GPS coordinates: {coordinates[0]}, {coordinates[1]}");
+        Console.WriteLine();
+
+        // Type Casting:
+
+        // --------Task 01
+
+        int Count = 10;
+        string Num = "100";
+        int IntNum = Convert.ToInt32(Num);
+
+        Console.WriteLine(IntNum + Count);
+
+        // -------- Task 02 (Swap the Decimal Value )
+        decimal Num1 = 10.2M;
+        int Num2 = 1;
+
+        int Num3 = Convert.ToInt32(Num1);
+        Num2 = Num3;
+
+         Console.WriteLine(Num2);
+
+        //Implicit and Explicit data
+
+        // -------- Task 03 (Change int Int)
+        string CellNum = "03007836331";
+        long NewNum = Convert.ToInt64(CellNum);
+
+        Console.WriteLine(NewNum);
+
+
+        // -------- Task 04 (change into 0 / 1)
+        bool gender = true;
+        long answer = Convert.ToInt64(gender);
+            
+        Console.WriteLine(answer);
+
+        // -------- Task 05 (Check the Case Sensitivity)
+        int count1 = 100;
+        int Count1 = 500;
+
+        Console.WriteLine(Count1);
+
+        // -------- Task 06 (Swap the Int Value)
+
+        count1 = Count1;
+        Console.WriteLine(count1);
+
 
         Console.ReadLine();
     }
