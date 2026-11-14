@@ -125,6 +125,7 @@ public static class Program
         Console.WriteLine("            Hobbies            ");
         Console.WriteLine("_______________________________");
         Console.WriteLine($"My Hobbies are {Hobby1} and {Hobby2}");
+        Console.WriteLine();
 
         Console.WriteLine("          Next of Kin          ");
         Console.WriteLine("_______________________________");
