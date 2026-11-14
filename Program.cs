@@ -14,6 +14,7 @@ public static class Program
             5) bool
          */
 
+        /*
         string Name = "Taimour Sohail";
         string Address = "Bahria Town Karachi";
         string SchoolName = "Al-Nafi International College";
@@ -76,6 +77,69 @@ public static class Program
         count1 = Count1;
         Console.WriteLine($"First Variable: {count1}, Second Variable: {Count1}");
 
+        */
+
+        // Append or String Concatination:
+        Console.WriteLine("Concetination/Append Lecture 👇");
+        Console.WriteLine();
+
+        string Name = "TAIMOUR";
+        string FatherName = "SOHAIL";
+        string Cell = "03207882433";
+        string Address = "Precinct 02 Bahria Town Karachi, Karachi";
+
+        string HighestGrade = "Matric";
+        int GraduationYear = 2022;
+        string InstitueName = "White House Grammer School";
+
+        string Vision = "To become Software Engineer";
+
+        string Hobby1 = "Golfing";
+        string Hobby2 = "Coding";
+
+        string NextOfKin = "Brother";
+        string ProgrammingLanguage = "C#";
+
+        string Skill = "Website Development";
+        int YearsOfExperiance = 1;
+
+        Console.WriteLine("_______________________________");
+        Console.WriteLine("     Personal Information      ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine("Name: " + Name);
+        Console.WriteLine("Father Name: " + FatherName);
+        Console.WriteLine("Cell Phone Number: " + Cell);
+        Console.WriteLine("Address: " + Address);
+        Console.WriteLine();
+
+        Console.WriteLine("          Qualification        ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine($"Highest Qualification is {HighestGrade} and had completed in {GraduationYear} at {InstitueName}.");
+        Console.WriteLine();
+
+        Console.WriteLine("            Vision             ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine(Vision);
+        Console.WriteLine();
+
+        Console.WriteLine("            Hobbies            ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine($"My Hobbies are {Hobby1} and {Hobby2}");
+
+        Console.WriteLine("          Next of Kin          ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine($"My next of Kin is my {NextOfKin}");
+        Console.WriteLine();
+
+        Console.WriteLine("          Experience           ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine($"I am learning {ProgrammingLanguage} programming language.");
+        Console.WriteLine();
+
+        Console.WriteLine("             Skills            ");
+        Console.WriteLine("_______________________________");
+        Console.WriteLine($"I have {YearsOfExperiance} years of experiance in {Skill} field");
+        Console.WriteLine();
 
         Console.ReadLine();
     }
