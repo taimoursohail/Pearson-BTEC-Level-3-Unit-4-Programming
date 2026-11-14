@@ -106,8 +106,8 @@ public static class Program
         Console.WriteLine("_______________________________");
         Console.WriteLine("     Personal Information      ");
         Console.WriteLine("_______________________________");
-        Console.WriteLine("Name: " + Name);
-        Console.WriteLine("Father Name: " + FatherName);
+        Console.WriteLine("Name: " + Name.ToUpper());
+        Console.WriteLine("Father Name: " + FatherName.ToUpper());
         Console.WriteLine("Cell Phone Number: " + Cell);
         Console.WriteLine("Address: " + Address);
         Console.WriteLine();
