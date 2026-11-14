@@ -31,6 +31,7 @@ public static class Program
         Console.WriteLine();
 
         // Type Casting:
+        Console.WriteLine("Type Casting Lecture 👇");
 
         // --------Task 01
 
@@ -38,30 +39,30 @@ public static class Program
         string Num = "100";
         int IntNum = Convert.ToInt32(Num);
 
-        Console.WriteLine(IntNum + Count);
+        Console.WriteLine(IntNum - Count);
 
         // -------- Task 02 (Swap the Decimal Value )
-        decimal Num1 = 10.2M;
+        decimal Num1 = 10.2M; 
         int Num2 = 1;
 
         int Num3 = Convert.ToInt32(Num1);
+        Num1 = Num2;
         Num2 = Num3;
 
-         Console.WriteLine(Num2);
+        Console.WriteLine($"Variable1 = {Num1}, Variable2 = {Num2}");
 
-        //Implicit and Explicit data
 
-        // -------- Task 03 (Change int Int)
+        // -------- Task 03 (Change into Int)
         string CellNum = "03007836331";
         long NewNum = Convert.ToInt64(CellNum);
 
-        Console.WriteLine(NewNum);
+        Console.WriteLine("0"+NewNum);
 
 
         // -------- Task 04 (change into 0 / 1)
-        bool gender = true;
+        bool gender = false;
         long answer = Convert.ToInt64(gender);
-            
+
         Console.WriteLine(answer);
 
         // -------- Task 05 (Check the Case Sensitivity)
@@ -73,7 +74,7 @@ public static class Program
         // -------- Task 06 (Swap the Int Value)
 
         count1 = Count1;
-        Console.WriteLine(count1);
+        Console.WriteLine($"First Variable: {count1}, Second Variable: {Count1}");
 
 
         Console.ReadLine();
